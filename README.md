@@ -1,4 +1,4 @@
 - 👋 Hi, I’m Mohamad @msabab
-- 👀 I’m interested in everything
+- 👀 I’m interested in front and backend web technologies
 - 🌱 I’m currently learning about computer networks
-- 💞️ I’m looking to collaborate on backend projects written w/ JS | Python
+- 💞️ I’m looking to collaborate on backend and frontend JavaScript Projects
