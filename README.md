@@ -4,7 +4,7 @@ I'm a product-minded software engineer with 5+ years of experience building web 
 
 I specialize in React, Next.js, TypeScript, and modern frontend architecture, but I enjoy working across the stack when it helps deliver better products.
 
-My focus is on creating fast, intuitive, and scalable experiences—bridging product thinking, UX, engineering, and AI-assisted development.
+My focus is on creating fast, intuitive, and scalable experiences; bridging product thinking, UX, engineering, and AI-assisted development.
 
 ### What I care about
 - Building products, not just features
