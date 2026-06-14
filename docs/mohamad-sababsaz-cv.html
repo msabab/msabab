@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mohamad SababSaz | Senior Fullstack Engineer</title>
+    <style>
+      :root {
+        --ink: #111b24;
+        --muted: #3d4b57;
+        --accent: #19466b;
+        --rule: #4d5861;
+        --paper: #fff;
+        --canvas: #e8ebee;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 12px;
+      }
+
+      body {
+        margin: 0;
+        background: var(--canvas);
+        color: var(--ink);
+        font-family: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        font-size: 1rem;
+        font-kerning: normal;
+        text-rendering: optimizeLegibility;
+        line-height: 1.28;
+      }
+
+      .resume {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 18px auto;
+        padding: 12mm 13mm 11mm;
+        background: var(--paper);
+        box-shadow: 0 2px 14px rgba(18, 33, 46, 0.16);
+      }
+
+      h1,
+      h2,
+      h3,
+      p,
+      ul {
+        margin: 0;
+      }
+
+      h1 {
+        color: var(--accent);
+        font-size: 2.42rem;
+        font-weight: 700;
+        letter-spacing: -0.035em;
+        line-height: 1.04;
+      }
+
+      .headline {
+        margin-top: 0.3rem;
+        color: var(--accent);
+        font-size: 1.48rem;
+        font-weight: 600;
+        letter-spacing: -0.012em;
+        line-height: 1.15;
+      }
+
+      .contact {
+        display: grid;
+        grid-template-columns: 1fr 1.08fr;
+        gap: 0.3rem 2.7rem;
+        margin-top: 1.25rem;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.28;
+      }
+
+      .contact a,
+      .company {
+        color: var(--accent);
+        text-decoration: underline;
+        text-decoration-thickness: 0.5px;
+        text-underline-offset: 0.14em;
+      }
+
+      .section {
+        margin-top: 1.85rem;
+      }
+
+      .section-title {
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 0.38rem;
+        color: var(--accent);
+        font-size: 1.36rem;
+        font-weight: 700;
+        letter-spacing: 0.045em;
+        line-height: 1.1;
+        text-transform: uppercase;
+      }
+
+      .summary {
+        margin: 0.62rem 1.05rem 0;
+        font-size: 1.01rem;
+        line-height: 1.37;
+        hyphens: none;
+        text-align: left;
+      }
+
+      .skills {
+        margin: 0.54rem 1.05rem 0;
+        font-size: 0.98rem;
+        line-height: 1.34;
+        hyphens: none;
+        text-align: left;
+      }
+
+      .skills strong {
+        font-weight: 700;
+        letter-spacing: 0.015em;
+      }
+
+      .experience {
+        margin-top: 2.05rem;
+      }
+
+      .role {
+        margin: 0.72rem 1.05rem 0;
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+
+      .role + .role {
+        margin-top: 1.12rem;
+      }
+
+      .role-name {
+        font-size: 1.08rem;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        line-height: 1.2;
+      }
+
+      .role-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 1.2rem;
+        margin-top: 0.2rem;
+        color: var(--muted);
+        font-size: 0.97rem;
+        line-height: 1.25;
+      }
+
+      .dates {
+        flex: 0 0 auto;
+        color: var(--ink);
+        font-size: 0.99rem;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+      }
+
+      .achievements {
+        margin-top: 0.53rem;
+        padding-left: 1.65rem;
+        font-size: 0.98rem;
+        line-height: 1.27;
+      }
+
+      .achievements li {
+        margin: 0.2rem 0;
+        padding-left: 0.48rem;
+        hyphens: none;
+        text-align: left;
+      }
+
+      @media screen and (max-width: 820px) {
+        html {
+          font-size: 9.5px;
+        }
+
+        .resume {
+          width: 100%;
+          min-height: 0;
+          margin: 0;
+          padding: 8vw 7vw;
+          box-shadow: none;
+        }
+      }
+
+      @media print {
+        @page {
+          size: A4 portrait;
+          margin: 0;
+        }
+
+        html,
+        body {
+          width: 210mm;
+          height: 297mm;
+          background: #fff;
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+
+        .resume {
+          width: 210mm;
+          height: 297mm;
+          min-height: 0;
+          margin: 0;
+          padding: 12mm 13mm 11mm;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="resume" aria-label="Resume of Mohamad SababSaz">
+      <header>
+        <h1>Mohamad SababSaz</h1>
+        <p class="headline">Senior Fullstack Engineer</p>
+        <div class="contact" aria-label="Contact details">
+          <p>Mobile: <a href="tel:+989355824641">+98 935 582 4641</a></p>
+          <p>
+            Email: <a href="mailto:msabab95@gmail.com">msabab95@gmail.com</a>
+          </p>
+          <p>
+            LinkedIn: <a href="https://www.linkedin.com/in/m-sabab">m-sabab</a>
+          </p>
+          <p>B.Sc. Computer Engineering - English (C2)</p>
+        </div>
+      </header>
+
+      <section class="section" aria-labelledby="summary-title">
+        <h2 class="section-title" id="summary-title">Summary</h2>
+        <p class="summary">
+          Frontend-focused Software Engineer with 6+ years of experience
+          building scalable web applications across fintech, infrastructure
+          monitoring dashboards, enterprise systems, and consumer-facing
+          products. Specialized
+          in frontend architecture, performance optimization, and complex state
+          management. Product-minded engineer with strong
+          focus on UX, interaction quality, accessibility, and translating
+          technical systems into intuitive user experiences.
+        </p>
+        <p class="skills">
+          <strong>KEY SKILLS:</strong> React, React Native, Next.js,
+          TypeScript, Node.js, NestJS, Express, State Management, System
+          Design, Frontend Architecture, Performance
+          Optimization, Data Visualization, Product Engineering, Accessibility
+        </p>
+      </section>
+
+      <section class="section experience" aria-labelledby="experience-title">
+        <h2 class="section-title" id="experience-title">Experience</h2>
+
+        <article class="role">
+          <h3 class="role-name">Frontend Developer</h3>
+          <div class="role-meta">
+            <p>
+              <a class="company" href="https://www.linkedin.com/company/solidict">Solid ICT</a>, Istanbul, Turkey,
+              (Remote/Full-time)
+            </p>
+            <p class="dates">May 2024 - May 2026</p>
+          </div>
+          <ul class="achievements">
+            <li>
+              Led frontend development of T+ and KGB from beta to production,
+              coordinating feature delivery across product surfaces and complex
+              user workflows.
+            </li>
+            <li>
+              Implemented a shared payment-flow library used across 20+
+              projects, reducing integration complexity, edge-case errors, and
+              repeated testing effort.
+            </li>
+            <li>
+              Built a company-wide library of 12+ production-ready React
+              components, turning Figma designs into accessible UI patterns
+              scaled across 15+ projects and native webviews.
+            </li>
+            <li>
+              Modernized legacy projects by refactoring ~30% of class-based UI
+              code to hooks and reusable components, improving Lighthouse
+              scores by 35 points through TanStack Query adoption and Redux
+              reduction.
+            </li>
+          </ul>
+        </article>
+
+        <article class="role">
+          <h3 class="role-name">Fullstack Developer</h3>
+          <div class="role-meta">
+            <p>
+              <span class="company">Phenoma</span>, Tehran, (Hybrid/Part-time)
+            </p>
+            <p class="dates">January 2022 - May 2025</p>
+          </div>
+          <ul class="achievements">
+            <li>
+              Led frontend development of a fintech copy-trading platform that
+              connects traders and investors across multiple investment
+              platforms, delivering 9 public pages and 30+ dashboard pages with
+              optimized onboarding flows, accessibility, animations, and
+              performance.
+            </li>
+            <li>
+              Designed scalable client-side data architecture for 60+ API
+              integrations using TanStack Query and Zod, improving reliability,
+              development speed, future-proofing, and onboarding time for new
+              developers.
+            </li>
+            <li>
+              Designed investor risk and performance metrics dashboards, using
+              Chart.js and Recharts to turn backend trading data into clear
+              visual decision tools.
+            </li>
+          </ul>
+        </article>
+
+        <article class="role">
+          <h3 class="role-name">Frontend Developer</h3>
+          <div class="role-meta">
+            <p>
+              <span class="company">Techranco</span> &amp;
+              <a class="company" href="https://www.linkedin.com/company/mogli-ltd/">Mogli</a>, Tehran,
+              (On-site/Full-time)
+            </p>
+            <p class="dates">July 2021 - May 2024</p>
+          </div>
+          <ul class="achievements">
+            <li>
+              Owned features for representing digital twin systems on Leaflet
+              maps and designing D3.js pipeline designers for infrastructure
+              monitoring dashboards.
+            </li>
+            <li>
+              Led rewrite of a production HR dashboard used by 250+ users,
+              preserving workflow consistency while adding features and fixing
+              rough edges across core screens.
+            </li>
+            <li>
+              Architected authentication system using Keycloak and NextAuth,
+              implementing authentication workflows and securing API
+              integrations across multiple client applications.
+            </li>
+            <li>
+              Drove migration toward a modern frontend architecture using
+              Next.js, TypeScript, and Zustand, improving maintainability and
+              onboarding efficiency across the engineering team.
+            </li>
+          </ul>
+        </article>
+
+        <article class="role">
+          <h3 class="role-name">Fullstack Developer</h3>
+          <div class="role-meta">
+            <p>vvlist &amp; in1min, Tehran, (Remote/Project)</p>
+            <p class="dates">November 2019 - November 2023</p>
+          </div>
+          <ul class="achievements">
+            <li>
+              Architected and delivered Next.js applications with 85+ Lighthouse
+              scores, increasing organic traffic by ~500% through SSG, SEO and
+              semantic HTML optimization.
+            </li>
+            <li>
+              Developed and deployed full-stack MVP platform within 14-day
+              deadline, including 10+ responsive pages and 30+ RESTful API
+              endpoints for authentication and media services.
+            </li>
+            <li>
+              Created a monorepo combining React Native, admin panel, NestJS
+              backend, and web frontend, sharing API interfaces and design
+              system primitives across products.
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
