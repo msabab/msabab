@@ -1,6 +1,6 @@
 # Hey, I'm Mohamad 👋
 
-I'm a product-minded software engineer with 5+ years of experience building web applications from idea to production.
+I'm a product-minded software engineer with 6+ years of experience building web applications from idea to production.
 
 I specialize in React, Next.js, TypeScript, and modern frontend architecture, but I enjoy working across the stack when it helps deliver better products.
 
